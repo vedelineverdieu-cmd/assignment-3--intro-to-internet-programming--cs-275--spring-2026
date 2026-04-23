@@ -54,7 +54,8 @@ let compressCSS = () => {
 let copyUnprocessedAssetsForProd = () => {
   return src(
     [
-      `**/*`,
+      `./**/*`,
+      `!.git/**`,
       `!index.html`,
       `!styles/main.css`,
       `!scripts/**`,
@@ -102,7 +103,11 @@ exports.compressCSS = compressCSS;
 exports.copyUnprocessedAssetsForProd = copyUnprocessedAssetsForProd;
 exports.clean = clean;
 
-exports.serve = series(lintJS, lintCSS, transpileJSForDev, serve);
+exports.serve = series(
+  lintJS,
+  lintCSS,
+  transpileJSForDev,
+  serve);
 
 exports.build = series(
   compressJS,
