@@ -46,7 +46,7 @@ a {
 
 nav ul {
   list-style: none;
-  font-weight: 600;
+  font-weight: 300;
   padding-left: 20px;
 }
 
@@ -60,7 +60,6 @@ nav ul {
   opacity: 0;
   visibility: hidden;
   transition: opacity .4s ease;
-  
 }
 
 .modal-content-pane {
@@ -68,4 +67,17 @@ nav ul {
   width: 400px;
   height: 200px;
   padding: 50px;
+}
+.side-tray{
+  background: powderblue;
+  width: 220px;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  transform: translateX(-100%);
+  transition: .4s;
+}
+
+.side-tray.show{
+  transform: translateX(0);
 }
