@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 75px;
+}
+
+header {
+  background: rgb(18, 129, 194);
+  color: white;
+  display: flex;
+  position: fixed;
+  height: 50px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#js-triggers {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+#js-triggers a {
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+nav {
+  overflow: hidden;
+  background: powderblue;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  transition: .4s ease;
+  max-height: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  list-style: none;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.modal-panel {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  inset: 0;
+  background: rgba(0, 0, 0, .5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .4s ease;
+  
+}
+
+.modal-content-pane {
+  background: white;
+  width: 400px;
+  height: 200px;
+  padding: 50px;
+}
