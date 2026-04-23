@@ -1,0 +1,34 @@
+{
+  "name": "assignment-3--intro-to-internet-programming--cs-275--spring-2026",
+  "version": "1.0.0",
+  "description": "☞ **Plagiarism in any form will result in failing the entire course. You’ve been duly warned.** ☜",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedelineverdieu-cmd/assignment-3--intro-to-internet-programming--cs-275--spring-2026.git"
+  },
+  "keywords": [],
+  "author": "Vedeline Verdieu",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vedelineverdieu-cmd/assignment-3--intro-to-internet-programming--cs-275--spring-2026/issues"
+  },
+  "homepage": "https://github.com/vedelineverdieu-cmd/assignment-3--intro-to-internet-programming--cs-275--spring-2026#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "browser-sync": "^3.0.4",
+    "del": "^8.0.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-stylelint": "^13.0.0",
+    "gulp-terser": "^2.1.0"
+  }
+}
