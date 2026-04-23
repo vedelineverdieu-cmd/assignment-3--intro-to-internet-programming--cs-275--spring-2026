@@ -36,7 +36,7 @@ nav {
   left: 0;
   right: 0;
   transition: .4s ease;
-  max-height: 0px;
+  max-height: 0;
 }
 
 a {
@@ -68,7 +68,8 @@ nav ul {
   height: 200px;
   padding: 50px;
 }
-.side-tray{
+
+.side-tray {
   background: powderblue;
   width: 220px;
   position: fixed;
@@ -78,6 +79,6 @@ nav ul {
   transition: .4s;
 }
 
-.side-tray.show{
+.side-tray.show {
   transform: translateX(0);
 }
